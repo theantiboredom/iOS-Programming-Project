@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29496D001BC49E100076EB6D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29496CFF1BC49E100076EB6D /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		29496D021BC49E590076EB6D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29496D011BC49E590076EB6D /* AddViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		29496D041BC49E7D0076EB6D /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29496D031BC49E7D0076EB6D /* StationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		29496D061BC49E960076EB6D /* BracketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29496D051BC49E960076EB6D /* BracketViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		29EF69841BC4043C00502B1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF69831BC4043C00502B1A /* AppDelegate.swift */; };
 		29EF69861BC4043C00502B1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29EF69851BC4043C00502B1A /* ViewController.swift */; };
 		29EF69891BC4043C00502B1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29EF69871BC4043C00502B1A /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		29496CFF1BC49E100076EB6D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		29496D011BC49E590076EB6D /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		29496D031BC49E7D0076EB6D /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
+		29496D051BC49E960076EB6D /* BracketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BracketViewController.swift; sourceTree = "<group>"; };
 		29EF69801BC4043C00502B1A /* Tournament Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tournament Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EF69831BC4043C00502B1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29EF69851BC4043C00502B1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +65,10 @@
 				29EF69831BC4043C00502B1A /* AppDelegate.swift */,
 				29EF69851BC4043C00502B1A /* ViewController.swift */,
 				29EF69871BC4043C00502B1A /* Main.storyboard */,
+				29496CFF1BC49E100076EB6D /* SettingsViewController.swift */,
+				29496D011BC49E590076EB6D /* AddViewController.swift */,
+				29496D031BC49E7D0076EB6D /* StationsViewController.swift */,
+				29496D051BC49E960076EB6D /* BracketViewController.swift */,
 				29EF698A1BC4043C00502B1A /* Assets.xcassets */,
 				29EF698C1BC4043C00502B1A /* LaunchScreen.storyboard */,
 				29EF698F1BC4043C00502B1A /* Info.plist */,
@@ -137,6 +149,10 @@
 			files = (
 				29EF69861BC4043C00502B1A /* ViewController.swift in Sources */,
 				29EF69841BC4043C00502B1A /* AppDelegate.swift in Sources */,
+				29496D021BC49E590076EB6D /* AddViewController.swift in Sources */,
+				29496D041BC49E7D0076EB6D /* StationsViewController.swift in Sources */,
+				29496D001BC49E100076EB6D /* SettingsViewController.swift in Sources */,
+				29496D061BC49E960076EB6D /* BracketViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,7 @@
 				29EF69941BC4043C00502B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
