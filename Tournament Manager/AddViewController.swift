@@ -9,6 +9,12 @@
 import UIKit
 
 class AddViewController: UIViewController {
+    
+    @IBOutlet var ElimType: UISegmentedControl!
+    @IBOutlet var NumPart: UITextField!
+    @IBOutlet var BracketName: UITextField!
+    @IBOutlet var CancelButton: UIButton!
+    @IBOutlet var CreateButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
