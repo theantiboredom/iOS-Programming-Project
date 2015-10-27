@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6E01541BDEA5FE00D1233C /* Participant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E01531BDEA5FD00D1233C /* Participant.swift */; settings = {ASSET_TAGS = (); }; };
 		29496D001BC49E100076EB6D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29496CFF1BC49E100076EB6D /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		29496D021BC49E590076EB6D /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29496D011BC49E590076EB6D /* AddViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		29496D041BC49E7D0076EB6D /* StationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29496D031BC49E7D0076EB6D /* StationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C6E01531BDEA5FD00D1233C /* Participant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Participant.swift; sourceTree = "<group>"; };
 		29496CFF1BC49E100076EB6D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		29496D011BC49E590076EB6D /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		29496D031BC49E7D0076EB6D /* StationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationsViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				29EF69831BC4043C00502B1A /* AppDelegate.swift */,
+				0C6E01531BDEA5FD00D1233C /* Participant.swift */,
 				29EF69851BC4043C00502B1A /* ViewController.swift */,
 				29EF69871BC4043C00502B1A /* Main.storyboard */,
 				29496CFF1BC49E100076EB6D /* SettingsViewController.swift */,
@@ -150,6 +153,7 @@
 				29EF69861BC4043C00502B1A /* ViewController.swift in Sources */,
 				29EF69841BC4043C00502B1A /* AppDelegate.swift in Sources */,
 				29496D021BC49E590076EB6D /* AddViewController.swift in Sources */,
+				0C6E01541BDEA5FE00D1233C /* Participant.swift in Sources */,
 				29496D041BC49E7D0076EB6D /* StationsViewController.swift in Sources */,
 				29496D001BC49E100076EB6D /* SettingsViewController.swift in Sources */,
 				29496D061BC49E960076EB6D /* BracketViewController.swift in Sources */,
